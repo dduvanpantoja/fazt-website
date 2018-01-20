@@ -1,3 +1,44 @@
-h1 {
-    color: green;
-}
+/*
+    GUIA DE ESTILOS
+    0. RESETEAR
+    1. DISEÑO
+    2. ESTILOS GENERALES
+    3. PARTES DE LA WEB
+    4. LISTAS
+    5. FORMULARIO
+    6.ANOMACIONES
+    -------------------------------
+    COLORES:
+        color1 => #2c3e56;
+        color2 => #34495e;
+        color3 => #3498db;
+        color4 => #fff;
+*/
+
+/* 0 RESETEAR */
+    body {
+        text-align: center;
+        font: 300 20px/1.7 'Roboto Condensed';
+    }
+
+    /* 1 DISEÑO */
+    .header {
+        height: 95vh;
+        background: url(../img/comp.jpg);
+        background-size: 100% 100%;
+        background: cover;
+        background-repeat: no-repeat;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .navbar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 63px;
+        background: #2c3e50;
+    }
+/* 2 ITEMS GENERALES */
+/* 3 PARTES DE LA WEB */
+/* 4 LISTAS */
